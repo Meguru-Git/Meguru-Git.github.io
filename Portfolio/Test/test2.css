@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.works-title {
+  font-size: 40px;
+  margin: 40px;
+  text-align: center;
+  color: #3f72af;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: -1px -1px 19px #bae1ff, inset 2px 2px 30px #53a2ff87,
+    2px 2px 30px #4d80ffb8;
+  background: linear-gradient(
+    179deg,
+    #90c4ff 0%,
+    #a8d4ff6b 50%,
+    #65abffb5 100%
+  );
+}
+
+.skill-container {
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.skill-zone {
+  position: relative;
+  width: 100vw;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+.skill-center {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background: blue;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-card {
+  width: 200px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px #8a8a8a;
+  margin: 20px auto;
+  transition: all 0.5s ease;
+}
+
+.skill-title,
+.skill-next {
+  font-size: 20px;
+}
+
+.skill-card i,
+.skill-next i {
+  font-size: 60px;
+  margin: 10px;
+}
+
+.skill-center:hover .card1 {
+  background-color: red;
+}
+
+/*.card1:hover {
+  background: linear-gradient(
+    177deg,
+    #fff 0%,
+    #ffcb60 50%,
+    rgb(255, 145, 1) 100%
+  );
+  color: #fff;
+  box-shadow: 0px 2px 24px #ffb628, inset 2px 2px 10px #ffb863b0;
+  transform: translate(50px, 50px);
+}*/
+
+.card2:hover {
+  background: linear-gradient(
+    177deg,
+    #fff 0%,
+    #6092ff 50%,
+    rgb(1, 60, 255) 100%
+  );
+  color: #fff;
+  box-shadow: 0px 2px 24px #2873ff, inset 2px 2px 10px #6394ffb0;
+}
+
+.card3:hover {
+  background: linear-gradient(
+    177deg,
+    #fff 0%,
+    #fff872 50%,
+    rgb(173 156 39) 100%
+  );
+  color: #fff;
+  text-shadow: 1px 2px 5px #776f2ed6;
+  box-shadow: 0px 2px 24px #fff00bd4, inset 2px 2px 10px #feff94b0;
+}
+
+.card4:hover {
+  background: linear-gradient(
+    177deg,
+    #fff 0%,
+    #ff60e4 50%,
+    rgb(255, 1, 158) 100%
+  );
+  color: #fff;
+  box-shadow: 0px 2px 24px #ff28bf, inset 2px 2px 10px #ff63cbb0;
+}
+
+.card5:hover {
+  background: linear-gradient(
+    177deg,
+    #fff 0%,
+    #3c859e 50%,
+    rgb(40 89 117) 100%
+  );
+  color: #fff;
+  box-shadow: 0px 2px 24px #4d95ad, inset 2px 2px 10px #5296b5a8;
+}
